@@ -1,0 +1,66 @@
+.background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+/* Text millieu d'écran */
+
+div.title {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+}
+
+/* Souris pas dessus */
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255)
+}
+
+li {
+    display: inline;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    
+}
+
+/* Souris dessus */
+li:hover{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+}
+
+a:hover{
+    color: white;
+}
