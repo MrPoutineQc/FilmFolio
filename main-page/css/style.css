@@ -1,13 +1,23 @@
-.background{
-    position: absolute;
+/* Arrière Plan */
+
+.background {
+    position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    min-height: 100vh;
-    background-image: url(../img/background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    width: 200%;
+    height: 100vh;
+    background: url('../img/background.jpg') repeat-x;
+    animation: slide-left 20s linear infinite;
     z-index: -1;
+}
+
+@keyframes slide-left {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
 }
 
 /* Text millieu d'écran */
@@ -33,6 +43,8 @@ div.title {
 ul {
     text-align: center;
 }
+
+/* BOUTON */
 
 /* Souris pas dessus */
 a {
