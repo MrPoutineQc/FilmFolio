@@ -6,9 +6,10 @@
     left: 0;
     width: 200%;
     height: 100vh;
-    background: url('../img/background.jpg') repeat-x;
+    background: url('../img/background-filmfolio.jpg') repeat-x;
     animation: slide-left 20s linear infinite;
     z-index: -1;
+    filter: blur(2px);
 }
 
 @keyframes slide-left {
