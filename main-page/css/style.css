@@ -1,3 +1,8 @@
+/* IMPORT */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
 /* Arrière Plan */
 
 .background {
@@ -7,7 +12,7 @@
     width: 200%;
     height: 100vh;
     background: url('../img/background-filmfolio.jpg') repeat-x;
-    animation: slide-left 20s linear infinite;
+    animation: slide-left 35s linear infinite;
     z-index: -1;
     filter: blur(2px);
 }
@@ -24,7 +29,7 @@
 /* Text millieu d'écran */
 
 div.title {
-    color: white;
+    color: #14213D;
     font-weight: bold;
     position: absolute;
     top: 50%;
@@ -35,17 +40,26 @@ div.title {
     padding: 20px;
     text-align: center;
     font-size: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 3px 3px #000000;
 }
 
 .h1black{
-    color: black;
+    color: #F4F4F9;
 }
+
+/* .sub-title {
+    color: #586F7C;
+} */
+
+/* BOUTON */
 
 ul {
     text-align: center;
 }
 
-/* BOUTON */
 
 /* Souris pas dessus */
 a {
@@ -64,6 +78,8 @@ li {
     font-weight: bold;
     border: 3px solid #f1f1f1;
     font-size: 25px;
+    border-radius: 10px;
+    
 }
 
 /* Souris dessus */
@@ -74,6 +90,7 @@ li:hover{
     color: white;
     font-weight: bold;
     border: 3px solid #f1f1f1;
+    border-radius: 10px;
 }
 
 a:hover{
@@ -82,6 +99,7 @@ a:hover{
     transition: 0.5s;
 }
 
+/* Footer */
 p {
     color: white;
     text-align: center;
