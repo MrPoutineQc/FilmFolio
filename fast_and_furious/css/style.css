@@ -14,7 +14,7 @@ header img {
 header {
     background-color: black;
     color: rgb(8, 10, 11);
-    position: sticky;
+    
 }
 header h2 {
     background-color: black;
@@ -73,6 +73,13 @@ header h2 {
     position: relative;
     float: left;
 }
+.Charlize-theron img:hover {
+    filter: blur(55%);
+}
+.Dwayne_Johnson img:hover {
+    filter: blur(50%);
+}
+
 main h2 {
     float: left;
     margin-top: 200px;
