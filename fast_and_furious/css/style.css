@@ -73,12 +73,6 @@ header h2 {
     position: relative;
     float: left;
 }
-.Charlize-theron img:hover {
-    filter: blur(55%);
-}
-.Dwayne_Johnson img:hover {
-    filter: blur(50%);
-}
 
 main h2 {
     float: left;
@@ -99,4 +93,65 @@ h3 {
     border-width: 4px;
     width: 300px;
 }
+
+/* FICHE ACTEUR */
+#Charlize-theron:hover {
+    filter: blur(10px);
+}
+
+#Dwayne_Johnson:hover {
+    filter: blur(10px);
+}
+
+#Gal_Gadot:hover {
+    filter: blur(10px);
+}
+
+#Jason_Statham:hover {
+    filter: blur(10px);
+}
+
+#John_Cena:hover {
+    filter: blur(10px);
+}
+
+#Jordana_Brewster:hover {
+    filter: blur(10px);
+}
+
+#Lucas_Black:hover {
+    filter: blur(10px);
+}
+
+#Ludacris:hover {
+    filter: blur(10px);
+}
+
+#Michelle_Rodriguez_Cannes:hover {
+    filter: blur(10px);
+}
+
+#Nathalie_Emmanuel:hover {
+    filter: blur(10px);
+}
+
+#PaulWalker:hover {
+    filter: blur(10px);
+}
+
+#Sung_Kang:hover {
+    filter: blur(10px);
+}
+
+#TyreseGibson:hover {
+    filter: blur(10px);
+}
+
+
+#vin_diesel:hover {
+    filter: blur(10px);
+    opacity: 1;
+}
+
+
 
