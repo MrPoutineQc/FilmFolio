@@ -14,8 +14,13 @@ header img {
 header {
     background-color: black;
     color: rgb(8, 10, 11);
-    
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
 }
+
+
 header h2 {
     background-color: black;
     padding-bottom: 22px;
@@ -26,8 +31,9 @@ header h2 {
     font-size: 50px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-#acceuil {
+#acceuil a {
     float: left;
+    color: red;
     
 }
 #contact {
@@ -94,63 +100,8 @@ h3 {
     width: 300px;
 }
 
-/* FICHE ACTEUR */
-#Charlize-theron:hover {
-    filter: blur(10px);
-}
-
-#Dwayne_Johnson:hover {
-    filter: blur(10px);
-}
-
-#Gal_Gadot:hover {
-    filter: blur(10px);
-}
-
-#Jason_Statham:hover {
-    filter: blur(10px);
-}
-
-#John_Cena:hover {
-    filter: blur(10px);
-}
-
-#Jordana_Brewster:hover {
-    filter: blur(10px);
-}
-
-#Lucas_Black:hover {
-    filter: blur(10px);
-}
-
-#Ludacris:hover {
-    filter: blur(10px);
-}
-
-#Michelle_Rodriguez_Cannes:hover {
-    filter: blur(10px);
-}
-
-#Nathalie_Emmanuel:hover {
-    filter: blur(10px);
-}
-
-#PaulWalker:hover {
-    filter: blur(10px);
-}
-
-#Sung_Kang:hover {
-    filter: blur(10px);
-}
-
-#TyreseGibson:hover {
-    filter: blur(10px);
-}
-
-
-#vin_diesel:hover {
-    filter: blur(10px);
-    opacity: 1;
+.actor-img:hover {
+    filter: blur(10px);   
 }
 
 
