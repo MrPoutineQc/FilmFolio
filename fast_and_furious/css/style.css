@@ -60,7 +60,6 @@ header h2 {
     81% {left:1600px;}
     90% {left:2000px;}
     100% {left:2000px;}
-    0% {left: 0px;}
 }
 .slide-images {
     width: 4800px;
@@ -70,7 +69,7 @@ header h2 {
     animation-name: slide_animation;
     animation-duration: 20s;
     animation-iteration-count: infinite;
-    animation-direction: reverse;
+    animation-direction: alternate-reverse;
     animation-play-state: running;
 }
 .img-container {
@@ -107,7 +106,7 @@ h3 {
 
 
 .actor-img {
-    display: block;
+   display: block;
     width: 200px;
 }
 
@@ -119,7 +118,7 @@ h3 {
     background: rgba(0,0,0,0.75);
     overflow: hidden;
     width: 100%;
-    transition: .5s ease;
+    transition: 2s ease;
     opacity: 0;
 }
 .actor-img-description:hover .description-actor {
@@ -146,6 +145,11 @@ h3 {
     letter-spacing: 5px;
     line-height: 1.5em;
 
+}
+.actor-img-container {
+    display: flex;
+    overflow: scroll;
+    
 }
 
 
