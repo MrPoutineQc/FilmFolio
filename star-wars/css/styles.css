@@ -1,0 +1,31 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/66/8e/1d/668e1d1f045feb92b4e1cc4aef2473d5.jpg);
+}
+
+.header-main {
+    width: 100%;
+    height: 60%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-main-logo {
+    height: fit-content;
+    width: 100%;
+background-color: yellow;
+}
+
+.header-main-logo{
+    height: 30px;
+}
+.header-main-nav {
+    height: 100%;
+    width: 100%;
+background-color: blue;
+}
+.header-main-sm {
+    height: 100%;
+    width: 100%;
+background-color: red;
+}
