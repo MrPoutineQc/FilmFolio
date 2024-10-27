@@ -167,7 +167,12 @@
 
 }
 
+
+
+
+
 /* Acteur */
+
 #actor h3 {
     padding-top: 40px;
     font-size: 50px;
@@ -257,27 +262,66 @@
 
 .footer {
     width: 100%;
-    height: 100px;
+    height: 110px;
+    margin: 0;
     background-color: #111;
     display: flex;
     justify-content: space-between;
 }
 
 .footer-main {
-    margin-top: 60px;
+    
     display: flex;
     width: fit-content;
     gap: 20px;
 }
 
 .tim-logo img{
+    margin-top: 60px;
     width: 80px;
     height: 30px;
 }
 
 .footer-message h6{
     width: 330px;
-    margin-top: 10px;
+    margin-top: 70px;
     font-size: 15px;
+    color: aliceblue;
+}
+
+.footer-main-2 {
+    width: fit-content;
+    display: flex;
+}
+.footer-main-about-us {
+    width: 170px;
+}
+.footer-main-about-us h5{
+    width: 250px;
+    margin: 10px 40px;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+.footer-main-about-us ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+}
+
+.footer-main-contact-us {
+    width: 200px;
+}
+
+.footer-main-contact-us h5{
+    width: 100px;
+    margin: 10px 40px;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+.footer-main-contact-us ul li a{
+    text-decoration: none;
+    list-style: none;
     color: aliceblue;
 }
