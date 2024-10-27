@@ -15,17 +15,14 @@
     padding: 1% 0%;
     position: fixed;
     z-index: 9999;
-}
-
-.header-main a {
-    text-decoration: none;
-}
+    border-bottom-left-radius:45px;
+    border-bottom-right-radius:45px;
 
 .header-main-title  {
     font-size: 50px;
     display: block;
     line-height: 60px;
-    background-color: #F3D84C;
+    background-color: #747372;
 }
 
 .header-main-title-left {
@@ -68,13 +65,13 @@ main {
 }
 
 #main-title a {
-    
+    text-decoration: none;
     color: #F9F9F9;
 }
 
 #second-title-right a , #second-title-left a {
     color: yellow;
-    
+    text-decoration: none;
 }
 
 #second-title-right:hover a, #second-title-left:hover a {
