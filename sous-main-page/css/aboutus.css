@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-main {
+    width: 100%;
+    height: 60px;
+    background-color: #781640;
+}
+
+.header-main-nav {
+    line-height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.back h6 a{
+    width: 260px;
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    display: block;
+}
+
+.back h6 a:hover{
+    color: black;
+}
+
+.header-main-title h1{
+    width: 300px;
+    color: yellow;
+    text-align: center;
+    padding-right: 120px;
+    display: block;
+}
+
+
+
+
+/* MAIN */
+
+
+.hero-container {
+    padding: 20px;
+    justify-content: center;
+    background-color: rgb(225, 225, 225);
+}
+
+.hero-main {
+    margin: 30px 15%;
+    width: 70%;
+    display: flex;
+    border-style: solid;
+    border-color: #111;
+    border-width: 5px;
+    border-radius: 2px;
+    }
+.hero-main img{
+   width: 300px;
+   height: 400px;
+}
+
+.hero-main-avatar {
+    width: fit-content;
+    height: 400px;
+    display: flex;
+}
+
+.hero-main-description {
+    margin: 10px 50px;
+    width: 350px;
+}
+.hero-main-description h2 {
+    color: chocolate;
+}
+.hero-main-description p {
+    font-size: 20px;
+}
+
+.hero-main-stat {
+    width: 400px;
+    margin: 50px 30px;
+}
+.hero-main-stat h3{
+    color: darkslategrey;
+    
+}
+
+
+.html-competence,.css-competence,.javascript-competence,.photoshop-competence,.audio-competence,.photo-competence {
+    height: 10px;
+    border-style: solid;
+    border-width: 4px;
+}
+
+/* JEREMY THERIAULT HERO */
+#jeremy-html {
+    width: 85%;
+    height: 10px;
+    background-color: #db2473;
+}
+
+#jeremy-css {
+    width: 60%;
+    height: 10px;
+    background-color: #db2473;
+}
+
+#jeremy-javascript {
+    width: 0%;
+    height: 10px;
+    background-color: #db2473;
+}
+
+#jeremy-photoshop {
+    width: 80%;
+    height: 10px;
+    background-color: #db2473;
+}
+
+#jeremy-audio {
+    width: 83%;
+    height: 10px;
+    background-color: #db2473;
+}
+
+#jeremy-photo {
+    width: 92%;
+    height: 10px;
+    background-color: #db2473;
+}
+
+
+
+/* ZACKARY WARREN HERO */
+#zackary-html {
+    width: 0%;
+    height: 10px;
+    background-color: #db2473;
+}
+
+#zackary-css {
+    width: 0%;
+    height: 10px;
+    background-color: #db2473;
+}
+
+#zackary-javascript {
+    width: 0%;
+    height: 10px;
+    background-color: #db2473;
+}
+
+#zackary-photoshop {
+    width: 0%;
+    height: 10px;
+    background-color: #db2473;
+}
+
+#zackary-audio {
+    width: 0%;
+    height: 10px;
+    background-color: #db2473;
+}
+
+#zackary-photo {
+    width: 0%;
+    height: 10px;
+    background-color: #db2473;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: 110px;
+    margin: 0;
+    background-color: #111;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-main {
+    
+    display: flex;
+    width: fit-content;
+    gap: 20px;
+}
+
+.tim-logo img{
+    margin-top: 60px;
+    width: 80px;
+    height: 30px;
+}
+
+.footer-message h6{
+    width: 330px;
+    margin-top: 70px;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+.footer-main-2 {
+    width: fit-content;
+    display: flex;
+}
+.footer-main-about-us {
+    width: 170px;
+}
+.footer-main-about-us h5{
+    width: 250px;
+    margin: 10px 40px;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+.footer-main-about-us ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+}
+
+.footer-main-contact-us {
+    width: 200px;
+}
+
+.footer-main-contact-us h5{
+    width: 100px;
+    margin: 10px 40px;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+.footer-main-contact-us ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+}
