@@ -35,7 +35,7 @@ body{
 .header-main-title-left,
 .header-main-title-right {
     width: 3500px;                      
-    text-align: center;                
+    text-align: center;             
 }
 
 #second-title-right a {
@@ -48,11 +48,15 @@ body{
     text-decoration: none;
     font-size: 30px;
     color: #F5F5F5;
+    transition: 0.2s;
 }
 
 #second-title-left a:hover, 
 #second-title-right a:hover {
-    background-color: #333333;
+    background-color: #3333336d;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.2s;
 }
 
 
@@ -66,15 +70,31 @@ body{
     background-color: 	#333333;
     height: 70px;
     width: 100%;
+    display: flex;
     position: absolute;
     bottom: 0;
-    text-align: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #tim-logo {
     display: flex;
     width: 230px;
     position: relative;
-    padding-top: 5px;
+    padding-bottom: 1px;
 }
 
+.footer-link-container {
+    margin: 50px;
+}
+
+.footer-link li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.footer-link a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
