@@ -41,19 +41,30 @@
 
 
 .hero-container {
-    padding: 20px;
+    padding: 2%;
     justify-content: center;
-    background-color: rgb(225, 225, 225);
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+}
+
+.premiere_ligne {
+    display: flex;
+}
+
+.deuxieme_ligne {
+    margin: 30px 0;
+    display: flex;
 }
 
 .hero-main {
-    margin: 30px 15%;
-    width: 70%;
+    margin: 10px 10%;
+    width: 100%;
     display: flex;
     border-style: solid;
     border-color: #111;
     border-width: 5px;
     border-radius: 2px;
+    background-color: #0000001a;
     }
 .hero-main img{
    width: 300px;
@@ -63,6 +74,7 @@
 .hero-main-avatar {
     width: fit-content;
     height: 400px;
+    width: 90%;
     display: flex;
 }
 
@@ -78,8 +90,8 @@
 }
 
 .hero-main-stat {
-    width: 400px;
-    margin: 50px 30px;
+    width: 100%;
+    margin: 100px 30px;
 }
 .hero-main-stat h3{
     color: darkslategrey;
@@ -90,44 +102,51 @@
 .html-competence,.css-competence,.javascript-competence,.photoshop-competence,.audio-competence,.photo-competence {
     height: 10px;
     border-style: solid;
-    border-width: 4px;
+    border-width: 3px ;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
 }
 
 /* JEREMY THERIAULT HERO */
 #jeremy-html {
     width: 85%;
     height: 10px;
-    background-color: #db2473;
+    background-color: #db2473;border-radius: 15px;
 }
 
 #jeremy-css {
     width: 60%;
     height: 10px;
     background-color: #db2473;
+    border-radius: 15px;
 }
 
 #jeremy-javascript {
     width: 0%;
     height: 10px;
     background-color: #db2473;
+    border-radius: 15px;
 }
 
 #jeremy-photoshop {
     width: 80%;
     height: 10px;
     background-color: #db2473;
+    border-radius: 15px;
 }
 
 #jeremy-audio {
     width: 83%;
     height: 10px;
     background-color: #db2473;
+    border-radius: 15px;
 }
 
 #jeremy-photo {
     width: 92%;
     height: 10px;
     background-color: #db2473;
+    border-radius: 15px;
 }
 
 
@@ -137,36 +156,140 @@
     width: 85%;
     height: 10px;
     background-color: #db2473;
+    border-radius: 15px;
 }
 
 #zackary-css {
     width: 60%;
     height: 10px;
     background-color: #db2473;
+    border-radius: 15px;
 }
 
 #zackary-javascript {
     width: 0%;
     height: 10px;
     background-color: #db2473;
+    border-radius: 15px;
 }
 
 #zackary-photoshop {
     width: 90%;
     height: 10px;
     background-color: #db2473;
+    border-radius: 15px;
 }
 
 #zackary-audio {
     width: 85%;
     height: 10px;
     background-color: #db2473;
+    border-radius: 15px;
 }
 
 #zackary-photo {
     width: 65%;
     height: 10px;
     background-color: #db2473;
+    border-radius: 15px;
+}
+
+
+
+/*HERO PABLO*/
+
+
+#pablo-html {
+    width: 73%;
+    height: 10px;
+    background-color: #db2473;
+    border-radius: 15px;
+}
+
+#pablo-css {
+    width: 60%;
+    height: 10px;
+    background-color: #db2473;
+    border-radius: 15px;
+}
+
+#pablo-javascript {
+    width: 0%;
+    height: 10px;
+    background-color: #db2473;
+    border-radius: 15px;
+}
+
+#pablo-photoshop {
+    width: 80%;
+    height: 10px;
+    background-color: #db2473;
+    border-radius: 15px;
+}
+
+#pablo-audio {
+    width: 70%;
+    height: 10px;
+    background-color: #db2473;
+    border-radius: 15px;
+}
+
+#pablo-photo {
+    width: 65%;
+    height: 10px;
+    background-color: #db2473;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+/*HERO ALEXIS*/
+
+
+#alexis-html {
+    width: 0%;
+    height: 10px;
+    background-color: #db2473;
+    border-radius: 15px;
+}
+
+#alexis-css {
+    width: 0%;
+    height: 10px;
+    background-color: #db2473;
+    border-radius: 15px;
+}
+
+#alexis-javascript {
+    width: 0%;
+    height: 10px;
+    background-color: #db2473;
+    border-radius: 15px;
+}
+
+#alexis-photoshop {
+    width: 0%;
+    height: 10px;
+    background-color: #db2473;
+    border-radius: 15px;
+}
+
+#alexis-audio {
+    width: 0%;
+    height: 10px;
+    background-color: #db2473;
+    border-radius: 15px;
+}
+
+#alexis-photo {
+    width: 0%;
+    height: 10px;
+    background-color: #db2473;
+    border-radius: 15px;
 }
 
 
@@ -233,14 +356,18 @@
 }
 .footer-main-about-us h5{
     width: 250px;
-    margin: 10px 40px;
+    margin: 10px 0px;
     font-size: 15px;
     color: aliceblue;
 }
 
-.footer-main-about-us ul li a {
+.footer-main-about-us ul li  {
     text-decoration: none;
     list-style: none;
+    color: aliceblue;
+}
+.footer-main-about-us ul li a {
+    text-decoration: none;
     color: aliceblue;
 }
 
@@ -250,13 +377,17 @@
 
 .footer-main-contact-us h5{
     width: 100px;
-    margin: 10px 40px;
+    margin: 10px 0px;
     font-size: 15px;
     color: aliceblue;
 }
 
-.footer-main-contact-us ul li a{
+.footer-main-contact-us ul li {
     text-decoration: none;
     list-style: none;
+    color: aliceblue;
+}
+.footer-main-contact-us ul li a{
+    text-decoration: none;
     color: aliceblue;
 }
