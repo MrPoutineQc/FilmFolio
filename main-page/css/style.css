@@ -79,6 +79,7 @@ body{
 .presentation-container{
     display: flex;
     background-color: yellow;
+    height: 60vh;
 
 }
 
@@ -118,7 +119,7 @@ body{
     font-size: large;
 }
 
-.footer-link a:hover {
+/* .footer-link a:hover {
     background-color: green;
-}
+} */
 
