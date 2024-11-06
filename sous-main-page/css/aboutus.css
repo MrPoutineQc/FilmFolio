@@ -6,7 +6,7 @@
 .header-main {
     width: 100%;
     height: 60px;
-    background-color: #781640;
+    background-color: #DD0426;
 }
 
 .header-main-nav {
@@ -27,11 +27,11 @@
 }
 
 .header-main-title h1{
-    width: 300px;
-    color: yellow;
+    width: 300px;   
     text-align: center;
-    padding-right: 120px;
+    margin-right: 300px;   
     display: block;
+    color: white;
 }
 
 
@@ -111,41 +111,41 @@
 #jeremy-html {
     width: 75%;
     height: 10px;
-    background-color: #db2473;border-radius: 15px;
+    background-color: #F02D3A;border-radius: 15px;
 }
 
 #jeremy-css {
     width: 60%;
     height: 10px;
-    background-color: #db2473;
+    background-color: #F02D3A;
     border-radius: 15px;
 }
 
 #jeremy-javascript {
     width: 0%;
     height: 10px;
-    background-color: #db2473;
+    background-color: #F02D3A;
     border-radius: 15px;
 }
 
 #jeremy-photoshop {
     width: 65%;
     height: 10px;
-    background-color: #db2473;
+    background-color: #F02D3A;
     border-radius: 15px;
 }
 
 #jeremy-audio {
-    width: 83%;
+    width: 70%;
     height: 10px;
-    background-color: #db2473;
+    background-color: #F02D3A;
     border-radius: 15px;
 }
 
 #jeremy-photo {
     width: 92%;
     height: 10px;
-    background-color: #db2473;
+    background-color: #F02D3A;
     border-radius: 15px;
 }
 
@@ -153,44 +153,44 @@
 
 /* ZACKARY WARREN HERO */
 #zackary-html {
-    width: 85%;
+    width: 75%;
     height: 10px;
-    background-color: #db2473;
+    background-color: #F02D3A;
     border-radius: 15px;
 }
 
 #zackary-css {
     width: 60%;
     height: 10px;
-    background-color: #db2473;
+    background-color: #F02D3A;
     border-radius: 15px;
 }
 
 #zackary-javascript {
     width: 0%;
     height: 10px;
-    background-color: #db2473;
+    background-color: #F02D3A;
     border-radius: 15px;
 }
 
 #zackary-photoshop {
-    width: 90%;
+    width: 65%;
     height: 10px;
-    background-color: #db2473;
+    background-color: #F02D3A;
     border-radius: 15px;
 }
 
 #zackary-audio {
-    width: 85%;
+    width: 70%;
     height: 10px;
-    background-color: #db2473;
+    background-color: #F02D3A;
     border-radius: 15px;
 }
 
 #zackary-photo {
-    width: 65%;
+    width: 75%;
     height: 10px;
-    background-color: #db2473;
+    background-color: #F02D3A;
     border-radius: 15px;
 }
 
@@ -202,42 +202,42 @@
 #pablo-html {
     width: 73%;
     height: 10px;
-    background-color: #db2473;
+    background-color: #F02D3A;
     border-radius: 15px;
 }
 
 #pablo-css {
     width: 60%;
     height: 10px;
-    background-color: #db2473;
+    background-color: #F02D3A;
     border-radius: 15px;
 }
 
 #pablo-javascript {
     width: 0%;
     height: 10px;
-    background-color: #db2473;
+    background-color: #F02D3A;
     border-radius: 15px;
 }
 
 #pablo-photoshop {
     width: 80%;
     height: 10px;
-    background-color: #db2473;
+    background-color: #F02D3A;
     border-radius: 15px;
 }
 
 #pablo-audio {
     width: 70%;
     height: 10px;
-    background-color: #db2473;
+    background-color: #F02D3A;
     border-radius: 15px;
 }
 
 #pablo-photo {
     width: 65%;
     height: 10px;
-    background-color: #db2473;
+    background-color: #F02D3A;
     border-radius: 15px;
 }
 
@@ -253,66 +253,44 @@
 #alexis-html {
     width: 0%;
     height: 10px;
-    background-color: #db2473;
+    background-color: #F02D3A;
     border-radius: 15px;
 }
 
 #alexis-css {
     width: 0%;
     height: 10px;
-    background-color: #db2473;
+    background-color: #F02D3A;
     border-radius: 15px;
 }
 
 #alexis-javascript {
     width: 0%;
     height: 10px;
-    background-color: #db2473;
+    background-color: #F02D3A;
     border-radius: 15px;
 }
 
 #alexis-photoshop {
     width: 0%;
     height: 10px;
-    background-color: #db2473;
+    background-color: #F02D3A;
     border-radius: 15px;
 }
 
 #alexis-audio {
     width: 0%;
     height: 10px;
-    background-color: #db2473;
+    background-color: #F02D3A;
     border-radius: 15px;
 }
 
 #alexis-photo {
     width: 0%;
     height: 10px;
-    background-color: #db2473;
+    background-color: #F02D3A;
     border-radius: 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
