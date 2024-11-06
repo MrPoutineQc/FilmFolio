@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-main {
+    width: 100%;
+    height: 60px;
+    background-color: #DD0426;
+}
+
+.header-main-nav {
+    line-height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.back h6 a{
+    width: 260px;
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    display: block;
+}
+
+.back h6 a:hover{
+    color: black;
+}
+
+.header-main-title h1{
+    width: 300px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-right: 120px;
+    display: block;
+}
+
+
+/* Main */
+main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.main_title {
+    display: block;
+    margin: 100px 200px;
+    width: 300px;
+}
+
+.main_title h2 {
+    font-size: 50px;
+    width: 500px;
+    color: #F02D3A;
+    
+}
+
+
+aside {
+    margin:  50px 300px;
+    padding: 10px;
+    border-style: solid;
+    border-color: rgba(130, 130, 130, 0.131);
+    background-color: #ffffff;
+}
+
+.main_form_ensemble_nom {
+    display: flex;
+    margin: 5px;
+}
+
+.main_form_nom {
+    font-size: 20px;
+    margin: 0px 0px;
+    width: 150px;
+}
+.main_form_nom input{
+    margin: 0;  
+}
+.main_form_prenom {
+    font-size: 20px;
+    margin: 0 20px;
+    width: 150px;
+}
+.main_form_courriel {
+    margin: 10px 5px;
+}
+.main_form_courriel input{
+    width: 100%;
+    margin:  5px 0;
+
+}
+.main_form_raison {
+    width: 10px;
+    margin: 10px 5px;
+}
+.main_form_raison select {
+margin: 3px 0;
+}
+.main_form_commentaire {
+    margin: 5px;
+
+}
+.main_form_commentaire input {
+    margin: 5px 0;
+    width: 100%;
+    height: 100px;
+}
+.submit input{
+    background-color: #DD0426;
+    border: none;
+    height: 30px;
+    width: 100%;
+    margin: 0 ;
+}
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: 110px;
+    margin: 40vh 0 0 0;
+    background-color: #111;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-main {
+    
+    display: flex;
+    width: fit-content;
+    gap: 20px;
+}
+
+.tim-logo img{
+    margin-top: 60px;
+    width: 80px;
+    height: 30px;
+}
+
+.footer-message h6{
+    width: 330px;
+    margin-top: 70px;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+.footer-main-2 {
+    width: fit-content;
+    display: flex;
+}
+.footer-main-about-us {
+    width: 170px;
+}
+.footer-main-about-us h5{
+    width: 250px;
+    margin: 10px 0px;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+.footer-main-about-us ul li  {
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+}
+.footer-main-about-us ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.footer-main-contact-us {
+    width: 200px;
+}
+
+.footer-main-contact-us h5{
+    width: 100px;
+    margin: 10px 0px;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+.footer-main-contact-us ul li {
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+}
+.footer-main-contact-us ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
