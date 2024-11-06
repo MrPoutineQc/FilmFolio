@@ -45,11 +45,12 @@ main {
 
 .main_title {
     display: block;
-    margin: 100px 200px;
+    margin: 10px 200px;
     width: 400px;
 }
 
 .main_title p {
+    margin-left: 15px;
     font-size: larger;
     font-weight: bold;
 }
