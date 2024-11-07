@@ -45,7 +45,7 @@ main {
 
 .main_title {
     display: block;
-    margin: 10px 200px;
+    margin: 100px 200px;
     width: 400px;
 }
 
@@ -147,6 +147,7 @@ form {
     background-color: #DD0426;
     color: #111;
     font-size: 20px;
+    font-weight:bold ;
     border: none;
     height: 50px;
     width: 100%; 
@@ -170,76 +171,36 @@ form {
 
 /* Footer */
 
-.footer {
+.footer-container {
+    background-color: 	#333333;
+    height: 70px;
     width: 100%;
-    height: 110px;
-    margin: 10vh 0 0 0;
-    background-color: #111;
     display: flex;
+    position: absolute;
+    bottom: 0;
     justify-content: space-between;
+    align-items: center;
+    padding: 2px;
 }
 
-.footer-main {
-    
+#tim-logo {
     display: flex;
-    width: fit-content;
-    gap: 20px;
+    width: 230px;
+    position: relative;
+    padding-bottom: 1px;
 }
 
-.tim-logo img{
-    margin-top: 60px;
-    width: 80px;
-    height: 30px;
+.footer-link-container {
+    margin-left: auto; 
 }
 
-.footer-message h6{
-    width: 330px;
-    margin-top: 70px;
-    font-size: 15px;
-    color: aliceblue;
+.footer-link li {
+    display: inline-block;
+    margin: 0 15px;
 }
 
-.footer-main-2 {
-    width: fit-content;
-    display: flex;
-}
-.footer-main-about-us {
-    width: 170px;
-}
-.footer-main-about-us h5{
-    width: 250px;
-    margin: 10px 0px;
-    font-size: 15px;
-    color: aliceblue;
-}
-
-.footer-main-about-us ul li  {
+.footer-link a {
     text-decoration: none;
-    list-style: none;
-    color: aliceblue;
-}
-.footer-main-about-us ul li a {
-    text-decoration: none;
-    color: aliceblue;
-}
-
-.footer-main-contact-us {
-    width: 200px;
-}
-
-.footer-main-contact-us h5{
-    width: 100px;
-    margin: 10px 0px;
-    font-size: 15px;
-    color: aliceblue;
-}
-
-.footer-main-contact-us ul li {
-    text-decoration: none;
-    list-style: none;
-    color: aliceblue;
-}
-.footer-main-contact-us ul li a{
-    text-decoration: none;
-    color: aliceblue;
+    color: white;
+    font-size: large;
 }
