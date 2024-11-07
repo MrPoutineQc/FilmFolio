@@ -58,7 +58,7 @@ main {
 
 .main_title h2 {
     font-size: 90px;
-    width: 900px;
+    width: 700px;
     color: #F02D3A;
     
 }
@@ -176,11 +176,8 @@ form {
     height: 70px;
     width: 100%;
     display: flex;
-    position: absolute;
-    bottom: 0;
     justify-content: space-between;
     align-items: center;
-    padding: 2px;
 }
 
 #tim-logo {
