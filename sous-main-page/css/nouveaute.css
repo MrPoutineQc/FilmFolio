@@ -47,12 +47,11 @@
 
 .container_premier_film {
     height: 200px;
-    border: solid 2px #9197AE;
+    border: solid 2px rgb(255, 0, 58);;
     border-radius: 10px;
     margin: 50px 15% 20px 15%;
     display: flex;
     transition: .3s ease;
-    background-color: #9197AE;
 }
 
 .container_premier_film:hover {
@@ -101,12 +100,11 @@ a {
 
 .container_deuxieme_film {
     height: 200px;
-    border: solid 2px #9197AE;
+    border: solid 2px rgb(255, 0, 58);
     border-radius: 10px;
     margin: 50px 15% 20px 15%;
     display: flex;
     transition: .3s ease;
-    background-color: #9197AE;
 }
 
 .container_deuxieme_film:hover {
@@ -158,18 +156,22 @@ a {
 
 .container_troisieme_film {
     height: 200px;
-    border: solid 2px #9197AE;
+    border: solid 2px rgb(255, 0, 58);
     border-radius: 10px;
     margin: 50px 15% 20px 15%;
     display: flex;
     transition: .3s ease;
-    background-color: #9197AE;
 }
 
-.container_troisieme_film:hover {
+.container_troisieme_film:hover  {
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
+    background-color: rgba(14, 14, 14, 1);
+}
+
+.container_troisieme_film h5:hover  {
+    color: white;
 }
 
 .container_troisieme_film img{
@@ -207,7 +209,7 @@ a {
     margin: 20px 0;
     color: #273043;
 }
-
+ 
 
 
 /* Footer */
