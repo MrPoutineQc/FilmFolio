@@ -71,7 +71,8 @@ main img {
     width: 600px;
     opacity: 0;  /* Cacher au départ */
     pointer-events: none;  /* Empêcher l'interaction avant survol */
-    transition: opacity 1s ease;
+    transition: opacity 0.3s ease-in-out;
+    transition-delay: 0.2s ;
 }
 
 .hero-main-avatar h2 {
@@ -90,7 +91,7 @@ main img {
 }
 
 .hero-main-stat {
-    margin: 7vh 2vh ;
+    margin: 4vh 2vh ;
 }
 
 .html-competence,.css-competence,.javascript-competence,.photoshop-competence,.audio-competence,.photo-competence {
