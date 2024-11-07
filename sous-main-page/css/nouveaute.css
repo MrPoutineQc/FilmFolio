@@ -49,9 +49,18 @@
     height: 200px;
     border: solid 2px #9197AE;
     border-radius: 10px;
-    margin: 50px 15% 0 15%;
+    margin: 50px 15% 20px 15%;
     display: flex;
+    transition: .3s ease;
+    background-color: #9197AE;
 }
+
+.container_premier_film:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+}
+
 .container_premier_film img{
     width: 200px;
     height: 200px;
@@ -79,12 +88,124 @@ a {
 .premier_film_description_haut h5{
     font-size: 30px;
     margin: 20px 0;
+    color: #273043;
 }
 
 .premier_film_description_bas h5{
     font-size: large;
     margin: 20px 0;
+    color: #273043;
+}
 
+
+
+.container_deuxieme_film {
+    height: 200px;
+    border: solid 2px #9197AE;
+    border-radius: 10px;
+    margin: 50px 15% 20px 15%;
+    display: flex;
+    transition: .3s ease;
+    background-color: #9197AE;
+}
+
+.container_deuxieme_film:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+}
+
+.container_deuxieme_film img{
+    width: 200px;
+    height: 200px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    position: absolute;
+}
+
+.deuxieme_film_description {
+    width: 100%;
+    text-align: center;
+    
+}
+
+a {
+   text-decoration: none;
+}
+
+.deuxieme_film_description h2{
+    margin: 10px auto;
+    color: #DD0426;
+    font-size: 50px;
+}
+
+.deuxieme_film_description_haut h5{
+    font-size: 30px;
+    margin: 20px 0;
+    color: #273043;
+}
+
+.deuxieme_film_description_bas h5{
+    font-size: large;
+    margin: 20px 0;
+    color: #273043;
+}
+
+
+
+
+
+
+.container_troisieme_film {
+    height: 200px;
+    border: solid 2px #9197AE;
+    border-radius: 10px;
+    margin: 50px 15% 20px 15%;
+    display: flex;
+    transition: .3s ease;
+    background-color: #9197AE;
+}
+
+.container_troisieme_film:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+}
+
+.container_troisieme_film img{
+    width: 200px;
+    height: 200px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    position: absolute;
+}
+
+.troisieme_film_description {
+    width: 100%;
+    text-align: center;
+    
+}
+
+a {
+   text-decoration: none;
+}
+
+.troisieme_film_description h2{
+    margin: 10px auto;
+    color: #DD0426;
+    font-size: 50px;
+}
+
+.troisieme_film_description_haut h5{
+    font-size: 30px;
+    margin: 20px 0;
+    color: #273043;
+}
+
+.troisieme_film_description_bas h5{
+    font-size: large;
+    margin: 20px 0;
+    color: #273043;
 }
 
 
