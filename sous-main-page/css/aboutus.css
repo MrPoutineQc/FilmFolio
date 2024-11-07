@@ -40,257 +40,115 @@
 /* MAIN */
 
 
-.hero-container {
-    padding: 2%;
-    justify-content: center;
-    background-color: rgb(255, 255, 255);
-    width: 50%;
-}
-
-.premiere_ligne {
-    display: flex;
-}
-
-.deuxieme_ligne {
-    margin: 30px 0;
-    display: flex;
+main img {
+    width: 300px;
+    height: 400px;
 }
 
 .hero-main {
-    margin: 10px 10%;
-    width: 100%;
+    width: 300px;
+    height: 400px;
+    border-style: solid ;
+    transition: 1s ease;
     display: flex;
-    border-style: solid;
-    border-color: #111;
-    border-width: 5px;
-    border-radius: 2px;
-    background-color: #0000001a;
-    }
-.hero-main img{
-   width: 300px;
-   height: 400px;
+    
+}
+    
+.hero-main:hover {
+    width: 900px;
+    height: 400px;
+    border-style: solid ;
+    transition: 0.5s ease-in-out;
 }
 
+/* Le bloc d'informations (avatar) est caché par défaut */
 .hero-main-avatar {
-    width: fit-content;
-    height: 400px;
-    width: 90%;
-    display: flex;
+    left: 100%;
+    margin-left: 10px;
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+    width: 600px;
+    opacity: 0;  /* Cacher au départ */
+    pointer-events: none;  /* Empêcher l'interaction avant survol */
+    transition: opacity 1s ease;
+}
+
+.hero-main-avatar h2 {
+    color: rgb(255, 0, 58);
+}
+
+/* Affichage de .hero-main-avatar au survol de .hero-main */
+.hero-main:hover .hero-main-avatar {
+    opacity: 1;  /* Rendre visible */
+    pointer-events: auto;  /* Autoriser l'interaction */
 }
 
 .hero-main-description {
-    margin: 10px 50px;
-    width: 350px;
-}
-.hero-main-description h2 {
-    color: chocolate;
-}
-.hero-main-description p {
-    font-size: 20px;
+    margin: 1vh 2vh;
+    height: 80px;
 }
 
 .hero-main-stat {
-    width: 100%;
-    margin: 100px 30px;
+    margin: 7vh 2vh ;
 }
-.hero-main-stat h3{
-    color: darkslategrey;
-    
-}
-
 
 .html-competence,.css-competence,.javascript-competence,.photoshop-competence,.audio-competence,.photo-competence {
     height: 10px;
     border-style: solid;
+    border-width: 4px;
     border-width: 3px ;
     border-radius: 15px;
+    border-color: rgb(255, 0, 58);
     background-color: rgb(255, 255, 255);
-}
+}   
 
 /* JEREMY THERIAULT HERO */
 #jeremy-html {
-    width: 75%;
+    width: 85%;
     height: 10px;
-    background-color: #F02D3A;border-radius: 15px;
+    background-color: #db2473;
+    background-color: #db2473;border-radius: 15px;
 }
 
 #jeremy-css {
     width: 60%;
     height: 10px;
-    background-color: #F02D3A;
+    background-color: #db2473;
     border-radius: 15px;
 }
 
 #jeremy-javascript {
     width: 0%;
     height: 10px;
-    background-color: #F02D3A;
+    background-color: #db2473;
     border-radius: 15px;
 }
 
 #jeremy-photoshop {
-    width: 65%;
+    width: 80%;
     height: 10px;
-    background-color: #F02D3A;
+    background-color: #db2473;
     border-radius: 15px;
 }
 
 #jeremy-audio {
-    width: 70%;
+    width: 83%;
     height: 10px;
-    background-color: #F02D3A;
+    background-color: #db2473;
     border-radius: 15px;
 }
 
 #jeremy-photo {
     width: 92%;
     height: 10px;
-    background-color: #F02D3A;
-    border-radius: 15px;
-}
-
-
-
-/* ZACKARY WARREN HERO */
-#zackary-html {
-    width: 75%;
-    height: 10px;
-    background-color: #F02D3A;
-    border-radius: 15px;
-}
-
-#zackary-css {
-    width: 60%;
-    height: 10px;
-    background-color: #F02D3A;
-    border-radius: 15px;
-}
-
-#zackary-javascript {
-    width: 0%;
-    height: 10px;
-    background-color: #F02D3A;
-    border-radius: 15px;
-}
-
-#zackary-photoshop {
-    width: 65%;
-    height: 10px;
-    background-color: #F02D3A;
-    border-radius: 15px;
-}
-
-#zackary-audio {
-    width: 70%;
-    height: 10px;
-    background-color: #F02D3A;
-    border-radius: 15px;
-}
-
-#zackary-photo {
-    width: 75%;
-    height: 10px;
-    background-color: #F02D3A;
-    border-radius: 15px;
-}
-
-
-
-/*HERO PABLO*/
-
-
-#pablo-html {
-    width: 73%;
-    height: 10px;
-    background-color: #F02D3A;
-    border-radius: 15px;
-}
-
-#pablo-css {
-    width: 60%;
-    height: 10px;
-    background-color: #F02D3A;
-    border-radius: 15px;
-}
-
-#pablo-javascript {
-    width: 0%;
-    height: 10px;
-    background-color: #F02D3A;
-    border-radius: 15px;
-}
-
-#pablo-photoshop {
-    width: 80%;
-    height: 10px;
-    background-color: #F02D3A;
-    border-radius: 15px;
-}
-
-#pablo-audio {
-    width: 70%;
-    height: 10px;
-    background-color: #F02D3A;
-    border-radius: 15px;
-}
-
-#pablo-photo {
-    width: 65%;
-    height: 10px;
-    background-color: #F02D3A;
+    background-color: #db2473;
     border-radius: 15px;
 }
 
 
 
 
-
-
-
-/*HERO ALEXIS*/
-
-
-#alexis-html {
-    width: 0%;
-    height: 10px;
-    background-color: #F02D3A;
-    border-radius: 15px;
-}
-
-#alexis-css {
-    width: 0%;
-    height: 10px;
-    background-color: #F02D3A;
-    border-radius: 15px;
-}
-
-#alexis-javascript {
-    width: 0%;
-    height: 10px;
-    background-color: #F02D3A;
-    border-radius: 15px;
-}
-
-#alexis-photoshop {
-    width: 0%;
-    height: 10px;
-    background-color: #F02D3A;
-    border-radius: 15px;
-}
-
-#alexis-audio {
-    width: 0%;
-    height: 10px;
-    background-color: #F02D3A;
-    border-radius: 15px;
-}
-
-#alexis-photo {
-    width: 0%;
-    height: 10px;
-    background-color: #F02D3A;
-    border-radius: 15px;
-}
 
 
 
