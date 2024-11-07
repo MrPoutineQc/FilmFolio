@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-main {
+    width: 100%;
+    height: 60px;
+    background-color: #DD0426;
+}
+
+.header-main-nav {
+    line-height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.back h6 a{
+    width: 260px;
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    display: block;
+    position: absolute;
+}
+
+.back h6 a:hover{
+    color: black;
+}
+
+.header-main-title h1{
+    width: 300px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: block;
+}
+
+
+
+/* MAIN */
+
+
+.main_nouveaute_titre {
+    font-size: 50px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container_premier_film {
+    height: 200px;
+    border: solid 2px #9197AE;
+    border-radius: 10px;
+    margin: 50px 15% 0 15%;
+    display: flex;
+}
+.container_premier_film img{
+    width: 200px;
+    height: 200px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    position: absolute;
+}
+
+.premier_film_description {
+    width: 100%;
+    text-align: center;
+    
+}
+
+a {
+   text-decoration: none;
+}
+
+.premier_film_description h2{
+    margin: 10px auto;
+    color: #DD0426;
+    font-size: 50px;
+}
+
+.premier_film_description_haut h5{
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.premier_film_description_bas h5{
+    font-size: large;
+    margin: 20px 0;
+
+}
+
+
+
+/* Footer */
+
+.footer-container {
+    background-color: 	#333333;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tim-logo {
+    display: flex;
+    width: 230px;
+    position: relative;
+    padding-bottom: 1px;
+}
+
+.footer-link-container {
+    margin-left: auto; 
+}
+
+.footer-link li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.footer-link a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
