@@ -38,27 +38,53 @@
 
 
 /* MAIN */
-
+main {
+    align-content: center;
+    height: 990px;
+}
 
 main img {
     width: 300px;
     height: 400px;
 }
 
-.hero-main {
+.hero-main-pablo {
+    width: 260px;
+    height: 400px;
+    border-style: solid ;
+    transition: 1s ease;
+    display: flex;
+    margin: auto;
+}
+
+.hero-main-pablo:hover {
+    width: 40%;
+    height: 400px;
+    border-style: solid ;
+    transition: 0.5s ease-in-out;
+    transition-delay: 0.2s;
+}
+
+.premiere_ligne {
+    width: 100%;
+    display: flex;
+}
+
+.hero-main{
     width: 300px;
     height: 400px;
     border-style: solid ;
     transition: 1s ease;
     display: flex;
-    
+    margin:  auto;
 }
     
 .hero-main:hover {
-    width: 900px;
+    width: 35%;
     height: 400px;
     border-style: solid ;
-    transition: 0.5s ease-in-out;
+    transition: 0.7s ease-in-out;
+    transition-delay: 0.2s;
 }
 
 /* Le bloc d'informations (avatar) est caché par défaut */
@@ -70,9 +96,10 @@ main img {
     border-radius: 8px;
     width: 600px;
     opacity: 0;  /* Cacher au départ */
+    visibility: hidden;
     pointer-events: none;  /* Empêcher l'interaction avant survol */
-    transition: opacity 0.3s ease-in-out;
-    transition-delay: 0.2s ;
+    transition: opacity 0.3s ease-in-out, visibility 0s 0.3s;
+    transition-delay: 0.4s ;
 }
 
 .hero-main-avatar h2 {
@@ -82,16 +109,26 @@ main img {
 /* Affichage de .hero-main-avatar au survol de .hero-main */
 .hero-main:hover .hero-main-avatar {
     opacity: 1;  /* Rendre visible */
+    visibility: visible;
+    pointer-events: auto;  /* Autoriser l'interaction */
+}
+
+.hero-main-pablo:hover .hero-main-avatar {
+    opacity: 1;  /* Rendre visible */
+    visibility: visible;
     pointer-events: auto;  /* Autoriser l'interaction */
 }
 
 .hero-main-description {
     margin: 1vh 2vh;
     height: 80px;
+    z-index: 0;
 }
 
 .hero-main-stat {
     margin: 4vh 2vh ;
+    background-color: white;
+    z-index: 1;
 }
 
 .html-competence,.css-competence,.javascript-competence,.photoshop-competence,.audio-competence,.photo-competence {
@@ -109,7 +146,7 @@ main img {
     width: 85%;
     height: 10px;
     background-color: #db2473;
-    background-color: #db2473;border-radius: 15px;
+    border-radius: 15px;
 }
 
 #jeremy-css {
@@ -147,7 +184,146 @@ main img {
     border-radius: 15px;
 }
 
+/* ZACKARY WARREN HERO */
+#zackary-html {
+    width: 85%;
+    height: 10px;
+    background-color: #db2473;
+    border-radius: 15px;
+}
 
+#zackary-css {
+    width: 60%;
+    height: 10px;
+    background-color: #db2473;
+    border-radius: 15px;
+}
+
+#zackary-javascript {
+    width: 0%;
+    height: 10px;
+    background-color: #db2473;
+    border-radius: 15px;
+}
+
+#zackary-photoshop {
+    width: 90%;
+    height: 10px;
+    background-color: #db2473;
+    border-radius: 15px;
+}
+
+#zackary-audio {
+    width: 85%;
+    height: 10px;
+    background-color: #db2473;
+    border-radius: 15px;
+}
+
+#zackary-photo {
+    width: 65%;
+    height: 10px;
+    background-color: #db2473;
+    border-radius: 15px;
+}
+
+
+
+/*HERO PABLO*/
+
+
+#pablo-html {
+    width: 73%;
+    height: 10px;
+    background-color: #db2473;
+    border-radius: 15px;
+}
+
+#pablo-css {
+    width: 60%;
+    height: 10px;
+    background-color: #db2473;
+    border-radius: 15px;
+}
+
+#pablo-javascript {
+    width: 0%;
+    height: 10px;
+    background-color: #db2473;
+    border-radius: 15px;
+}
+
+#pablo-photoshop {
+    width: 80%;
+    height: 10px;
+    background-color: #db2473;
+    border-radius: 15px;
+}
+
+#pablo-audio {
+    width: 70%;
+    height: 10px;
+    background-color: #db2473;
+    border-radius: 15px;
+}
+
+#pablo-photo {
+    width: 65%;
+    height: 10px;
+    background-color: #db2473;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+/*HERO ALEXIS*/
+
+
+#alexis-html {
+    width: 0%;
+    height: 10px;
+    background-color: #db2473;
+    border-radius: 15px;
+}
+
+#alexis-css {
+    width: 0%;
+    height: 10px;
+    background-color: #db2473;
+    border-radius: 15px;
+}
+
+#alexis-javascript {
+    width: 0%;
+    height: 10px;
+    background-color: #db2473;
+    border-radius: 15px;
+}
+
+#alexis-photoshop {
+    width: 0%;
+    height: 10px;
+    background-color: #db2473;
+    border-radius: 15px;
+}
+
+#alexis-audio {
+    width: 0%;
+    height: 10px;
+    background-color: #db2473;
+    border-radius: 15px;
+}
+
+#alexis-photo {
+    width: 0%;
+    height: 10px;
+    background-color: #db2473;
+    border-radius: 15px;
+}
 
 
 
