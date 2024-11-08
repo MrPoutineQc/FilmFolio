@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +20,7 @@ body{
     width: 100%;
     height: 70px;                      
     background-color: rgb(255, 0, 58);
-    position: sticky;
+    position: fixed;
     top: 1;                 
 }
 
@@ -29,9 +31,9 @@ body{
 
 .header-main-title a {
     text-decoration: none;
-    font-size: 60px;
+    font-size: 75px;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 
@@ -43,15 +45,15 @@ body{
 
 #second-title-right a {
     text-decoration: none;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
     color: white;
 }
 
 #second-title-left a {
     text-decoration: none;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
     color: white;
     transition: 0.2s;
 }
@@ -70,16 +72,19 @@ body{
 /* MAIN */
 
 #banner {
-    background-color: black;
     justify-content: center;
     align-items: center;
-    height: 275px;
+    height: 600px;
     display: flex;
     border-bottom: rgb(255, 0, 58);
     border-bottom-style: solid;
     border-width: 3px;
-    background-image: url(/main-page/img/marvel.jpg);
-    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+#banner video {
+    z-index: -1;
+    object-fit: cover;
 }
 
 .border-prensentation {
@@ -89,7 +94,7 @@ body{
     border-radius: 25px;
     width: 50%;
     margin: auto;
-    margin-top: 7vh;
+    margin-top: 4.5vh;
 }
 
 .presentation-container{
@@ -100,9 +105,10 @@ body{
 #title-presentation {
     text-align: center;
     font-size: 5vh;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", sans-serif;
     color: white;
     padding-top: 2vh;
+    padding-bottom: 2vh;
     transition: transform 0.8s ease, font-size 0.8s ease;
 }
 
@@ -115,13 +121,16 @@ body{
 .p-presentation-container {
     width: 50%;
     margin: auto;
-    margin-top: 5vh;
     color: white;
 }
 
 #p-presentation {
     text-align: center;
     font-size: 2vh;
+    padding-bottom: 2vh;
+}
+
+blockquote {
     padding-bottom: 2vh;
 }
 
@@ -147,7 +156,7 @@ body{
 }
 
 .footer-link-container {
-    margin-left: auto; 
+    margin-left: auto;
 }
 
 .footer-link li {
@@ -161,11 +170,10 @@ body{
     font-size: large;
     border-bottom: 2px solid transparent;
     transition: border-color 0.3s ease; 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .footer-link a:hover {
-    border-bottom-color: white;
-
+    border-bottom-color: rgb(255, 0, 58);
 }
 
