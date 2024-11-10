@@ -1,13 +1,22 @@
 * {
     margin: 0px;
-    color: rgb(0, 0, 0);
+    color: rgb(14, 14, 14)   ;
 }
 
+h1, h2, h3 {
+    color: rgb(89, 89, 89);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+}
 
 /* Header */
 
+header {
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
 .header-main {
-    background-color: rgb(231, 217, 217);
     width: 100%;
     height: 60px;
     display: flex;
@@ -49,10 +58,10 @@
     font-size: 30px;
     line-height: 60px;
     text-decoration: none;
-    
+    color: #111 ;
 }
 .header-main-nav ul li a:hover {
-    color: red;
+    color: rgb(0, 255, 0);
       
 }
 
@@ -100,6 +109,8 @@
 }
 
 
+
+/* Main */
 
 
 
@@ -183,7 +194,7 @@
     padding-top: 40px;
     font-size: 50px;
     text-align: center;
-    color: rgb(70, 57, 57);
+    color: rgb(255, 87, 34);
 }
 .actor-container {
     margin-top: 30px;
@@ -244,6 +255,9 @@
 }
 
 
+
+/* FAF1 */
+
 .faf1-container h4{
     font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -251,77 +265,59 @@
 .faf1-container {
     border-style: solid;
     border-width: 4px;
-    width: 300px;
+    border-color: rgb(169, 169, 169);
+    width: 35%;
     margin: 10px;
 }
 
+.faf1-container-description {
+    width: 80%;
+    display: flex;
+}
 
-
+.faf1-container-description p {
+    margin: 4vh 0 0 0;
+}
 
 /* Footer */
 
-.footer {
+.footer-container {
+    background-color: rgb(14, 14, 14);
+    height: 70px;
     width: 100%;
-    height: 110px;
-    margin: 0;
-    background-color: #111;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    border-top: 2px;
+    border-top-style: solid;
+    border-top-color: rgb(255, 0, 58);
 }
 
-.footer-main {
-    
+#tim-logo {
     display: flex;
-    width: fit-content;
-    gap: 20px;
+    width: 230px;
+    position: relative;
+    padding-bottom: 1px;
 }
 
-.tim-logo img{
-    margin-top: 60px;
-    width: 80px;
-    height: 30px;
+.footer-link-container {
+    margin-left: auto;
 }
 
-.footer-message h6{
-    width: 330px;
-    margin-top: 70px;
-    font-size: 15px;
-    color: aliceblue;
+.footer-link li {
+    display: inline-block;
+    margin: 0 15px;
 }
 
-.footer-main-2 {
-    width: fit-content;
-    display: flex;
-}
-.footer-main-about-us {
-    width: 170px;
-}
-.footer-main-about-us h5{
-    width: 250px;
-    margin: 10px 40px;
-    font-size: 15px;
-    color: aliceblue;
-}
-
-.footer-main-about-us ul li a {
+.footer-link a {
     text-decoration: none;
-    list-style: none;
-    color: aliceblue;
+    color: rgb(255, 0, 58);
+    font-size: large;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease; 
+    font-family: "Roboto", sans-serif;
 }
 
-.footer-main-contact-us {
-    width: 200px;
-}
-
-.footer-main-contact-us h5{
-    width: 100px;
-    margin: 10px 40px;
-    font-size: 15px;
-    color: aliceblue;
-}
-
-.footer-main-contact-us ul li a{
-    text-decoration: none;
-    list-style: none;
-    color: aliceblue;
+.footer-link a:hover {
+    border-bottom-color: rgb(255, 0, 58);
 }

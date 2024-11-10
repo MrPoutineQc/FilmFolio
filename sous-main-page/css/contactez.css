@@ -45,7 +45,7 @@ main {
 
 .main_title {
     display: block;
-    margin: 100px 200px;
+    margin: auto 200px 250px 200px;
     width: 400px;
 }
 
@@ -70,11 +70,13 @@ aside {
     border-style: solid;
     border-color: rgba(130, 130, 130, 0.131);
     background-color: #ffffff;
+    align-items : center;
 }
 
 form {
     width: 500px;
     height: 480px;
+    align-items : center;
 }
 
 .main_form_ensemble_nom {
@@ -172,12 +174,17 @@ form {
 /* Footer */
 
 .footer-container {
-    background-color: 	#333333;
+    background-color: rgb(14, 14, 14);
     height: 70px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-top: 2px;
+    border-top-style: solid;
+    border-top-color: rgb(255, 0, 58);
+    position: absolute;
+    bottom: 0px;
 }
 
 #tim-logo {
@@ -188,7 +195,7 @@ form {
 }
 
 .footer-link-container {
-    margin-left: auto; 
+    margin-left: auto;
 }
 
 .footer-link li {
@@ -198,6 +205,13 @@ form {
 
 .footer-link a {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 0, 58);
     font-size: large;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease; 
+    font-family: "Roboto", sans-serif;
+}
+
+.footer-link a:hover {
+    border-bottom-color: rgb(255, 0, 58);
 }
