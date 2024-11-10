@@ -67,9 +67,10 @@ body{
 
 #second-title-left a:hover, 
 #second-title-right a:hover {
+
     background-color: rgba(14, 14, 14, 0.35);
     border-radius: 10px;
-    padding: 5px;
+    padding: 5px 0px;
     transition: 0.2s;
 }
 
@@ -84,7 +85,7 @@ body{
 #search-box {
     height: 4vh;
     width: 35vh;
-    border-radius: 100vh;
+    border-radius: 1.5vh;
     border-style: solid;
     border-color:  rgb(14, 14, 14);
 }
