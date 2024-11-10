@@ -156,6 +156,10 @@ blockquote {
     padding-bottom: 2vh;
 }
 
+cite {
+    color: rgb(255, 0, 58);
+}
+
 /* FOOTER */
 
 .footer-container {
@@ -190,12 +194,22 @@ blockquote {
     text-decoration: none;
     color: rgb(255, 0, 58);
     font-size: large;
-    border-bottom: 2px solid transparent;
-    transition: border-color 0.3s ease; 
     font-family: "Roboto", sans-serif;
+    position: relative;
 }
 
-.footer-link a:hover {
-    border-bottom-color: rgb(255, 0, 58);
+.footer-link a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(255, 0, 58);
+    transition: width 0.3s ease;
+}
+
+.footer-link a:hover::after {
+    width: 100%;
 }
 
