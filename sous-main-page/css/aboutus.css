@@ -41,6 +41,7 @@
 main {
     align-content: center;
     height: 990px;
+    margin-bottom: 3vh;
 }
 
 main img {
@@ -90,7 +91,7 @@ main img {
 /* Le bloc d'informations (avatar) est caché par défaut */
 .hero-main-avatar {
     left: 100%;
-    margin-left: 10px;
+    margin: auto 10px;
     color: black;
     padding: 10px;
     border-radius: 8px;
@@ -341,8 +342,7 @@ main img {
     border-top: 2px;
     border-top-style: solid;
     border-top-color: rgb(255, 0, 58);
-    position: absolute;
-    bottom: 0px;
+    position: relative;
 }
 
 #tim-logo {

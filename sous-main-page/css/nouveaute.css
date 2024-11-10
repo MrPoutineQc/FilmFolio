@@ -158,7 +158,7 @@ a {
     height: 200px;
     border: solid 2px rgb(255, 0, 58);
     border-radius: 10px;
-    margin: 50px 15% 20px 15%;
+    margin: 50px 15% 14vh 15%;
     display: flex;
     transition: .3s ease;
 }
@@ -219,8 +219,7 @@ a {
     border-top: 2px;
     border-top-style: solid;
     border-top-color: rgb(255, 0, 58);
-    position: absolute;
-    bottom: 0px;
+    position: relative; 
 }
 
 #tim-logo {
