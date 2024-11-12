@@ -8,6 +8,10 @@ h1, h2, h3 {
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
 }
 
+.etoile {
+    color: rgb(220, 220, 0);
+}
+
 /* Header */
 
 header {
@@ -270,13 +274,30 @@ header {
     margin: 10px;
 }
 
+.faf1-container-title {
+    position: relative;
+    display: flex;
+}
+
+.faf1-container-title h4 {
+    margin: 0 10px;
+}
+
+.faf1-container-title h6 {
+    margin: 5px 10px 5px 600px;
+    position: absolute;
+    font-size: x-large;
+    display: flex;
+}
+
 .faf1-container-description {
     width: 80%;
     display: flex;
 }
 
 .faf1-container-description p {
-    margin: 4vh 0 0 0;
+    margin: 4vh 0 0 10vh;
+    width: 200px;
 }
 
 /* Footer */

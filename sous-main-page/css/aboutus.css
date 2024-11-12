@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 .header-main {
     width: 100%;
     height: 60px;
