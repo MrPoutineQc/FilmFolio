@@ -45,7 +45,6 @@ html, body {
 main {
     align-content: center;
     height: 990px;
-    margin-bottom: 3vh;
 }
 
 main img {
@@ -73,6 +72,11 @@ main img {
 .premiere_ligne {
     width: 100%;
     display: flex;
+}
+
+.hero-container {
+    margin: 30vh 0 ;
+    height: 100%;
 }
 
 .hero-main{
@@ -347,6 +351,7 @@ main img {
     border-top-style: solid;
     border-top-color: rgb(255, 0, 58);
     position: relative;
+    bottom: 0 ;
 }
 
 #tim-logo {
