@@ -75,6 +75,7 @@
     grid-template-columns: repeat(4, 15%); /* Crée 2 colonnes de même largeur */
     gap: 5vh;
     justify-content: center;
+    margin-bottom: 5vh;
 }
 
 .review-box {
@@ -84,8 +85,8 @@
 }
 
 .review-box img {
-    width: 400px;
-    height: 550px;
+    width: 100%;
+    height: 450px;
     object-fit: cover;
     border-radius: 1vh;
     border-style: solid;
@@ -99,7 +100,6 @@
     filter: none;
     scale: 105%;
 }
-
 
 /* FOOTER */
 

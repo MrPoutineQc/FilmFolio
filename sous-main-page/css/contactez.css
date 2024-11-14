@@ -94,8 +94,10 @@ form {
     margin: 0; 
     width: 100%; 
     border-radius: 5px;
-    height: 25px;
+    height: 30px;
     font-size: medium;
+    border: none;
+    background-color: rgb(228, 228, 228);
 }
 .main_form_prenom {
     font-size: 20px;
@@ -107,8 +109,10 @@ form {
     margin: 0; 
     width: 100%; 
     border-radius: 5px;
-    height: 25px;
+    height: 30px;
     font-size: medium;
+    border: none;
+    background-color: rgb(228, 228, 228);
 }
 .main_form_courriel {
     margin: 10px 5px;
@@ -118,8 +122,10 @@ form {
     width: 100%;
     margin:  5px 0;
     border-radius: 5px;
-    height: 25px;
+    height: 30px;
     font-size: medium;
+    border: none;
+    background-color: rgb(228, 228, 228);
 
 }
 .main_form_raison {
@@ -132,7 +138,21 @@ form {
     border-radius: 5px;
     height: 25px;
     font-size: medium;
+    border: none;
+    background-color: rgb(228, 228, 228);
 }
+option {
+    border: none;
+    background-color: rgb(228, 228, 228);
+    outline: none;
+}
+
+
+select option:hover {
+    background-color: #ffcc00; /* Example hover color */
+    color: #000; /* Change the text color if needed */
+}
+
 .main_form_commentaire {
     margin: 5px;
     font-size: xx-large
@@ -143,6 +163,8 @@ form {
     width: 100%;
     padding-bottom: 70px;
     border-radius: 5px;
+    border: none;
+    background-color: rgb(228, 228, 228);
 }
 .submit input{
     margin: 20px 5px;
@@ -164,13 +186,9 @@ form {
 }
 
 
-
-
-
-
-
-
-
+input {
+    padding: 1px 3px;
+}
 /* Footer */
 
 .footer-container {
