@@ -1,0 +1,52 @@
+/* FOOTER */
+
+.footer-container {
+    background-color: rgb(14, 14, 14);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px;
+    border-top-style: solid;
+    border-top-color: rgb(255, 0, 58);
+}
+
+#tim-logo {
+    display: flex;
+    width: 230px;
+    position: relative;
+    padding-bottom: 1px;
+}
+
+.footer-link-container {
+    margin-left: auto;
+}
+
+.footer-link li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.footer-link a {
+    text-decoration: none;
+    color: rgb(255, 0, 58);
+    font-size: large;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+}
+
+.footer-link a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(255, 0, 58);
+    transition: width 0.3s ease;
+}
+
+.footer-link a:hover::after {
+    width: 100%;
+}
