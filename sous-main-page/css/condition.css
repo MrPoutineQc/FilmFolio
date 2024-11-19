@@ -10,6 +10,7 @@
     border-top: 2px;
     border-top-style: solid;
     border-top-color: rgb(255, 0, 58);
+    position: bottom;
 }
 
 #tim-logo {
